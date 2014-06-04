@@ -1,3 +1,11 @@
+---
+layout: doc
+title: Introduction
+permalink: /en/beginner/introduction/
+lang: en
+category: beginner
+---
+
 Introduction
 ============
 
@@ -63,8 +71,8 @@ work. By following this guide, you should be able to quickly start
 making digital maps with OpenStreetMap.
 
 
-[A village in Indonesia]: images/en/beginner/01_introduction/en_beg_01_introduction_image00_village-in-indonesia.png
-[Example of a hand-drawn map]: images/en/beginner/01_introduction/en_beg_01_introduction_image01_hand-drawn-map.png
-[Examples of symbols]: images/en/beginner/01_introduction/en_beg_01_introduction_image02_examples-of-symbols.png
-[Mapping on Computer]: images/en/beginner/01_introduction/en_beg_01_introduction_image03_mapping-on-computer.png
-[Digital maps with OpenStreetMap]: images/en/beginner/01_introduction/en_beg_01_introduction_image04_digital-maps-with-osm.png
+[A village in Indonesia]: /images/en/beginner/01_introduction/en_beg_01_introduction_image00_village-in-indonesia.png
+[Example of a hand-drawn map]: /images/en/beginner/01_introduction/en_beg_01_introduction_image01_hand-drawn-map.png
+[Examples of symbols]: /images/en/beginner/01_introduction/en_beg_01_introduction_image02_examples-of-symbols.png
+[Mapping on Computer]: /images/en/beginner/01_introduction/en_beg_01_introduction_image03_mapping-on-computer.png
+[Digital maps with OpenStreetMap]: /images/en/beginner/01_introduction/en_beg_01_introduction_image04_digital-maps-with-osm.png

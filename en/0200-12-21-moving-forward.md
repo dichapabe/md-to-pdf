@@ -1,3 +1,11 @@
+---
+layout: doc
+title: Further Reading
+permalink: /en/beginner/moving-forward/
+lang: en
+category: beginner
+---
+
 Further Reading
 ===============
 
@@ -79,6 +87,6 @@ exploring and learning more about OSM, and contribute to the project.
 Happy Mapping!
 
 
-[MapOSMatic]: images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image00_maposmatic-homepage.png
-[Wiki]: images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image01_osm-wiki.png
-[Mailing list]: images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image02_osm-mailing-lists.png
+[MapOSMatic]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image00_maposmatic-homepage.png
+[Wiki]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image01_osm-wiki.png
+[Mailing list]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image02_osm-mailing-lists.png

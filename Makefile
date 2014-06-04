@@ -26,8 +26,9 @@ sed:
 	cd en && for i in $(ls *.md); do \
 				sed 1,9d $(i) > $(REPLACED_FILE); done
 
-#image: 
-#	cd en && sed -e "s/$(old)/$(new)/g" $(SOURCE_FILE_NAME) > $(REPLACED_FILE)
+image: 
+	grep -rl $(old) ./ | xargs sed -i 's/$(old)/$(new)/g'
+#	cd en && first = ${old/images/$(new)}
 
 
 clean:
