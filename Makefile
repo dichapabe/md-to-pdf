@@ -1,8 +1,5 @@
-SOURCE_FILE_NAME = 0200-12-31-beginner.md 0200-12-30-introduction.md \
-0200-12-29-start-osm.md 0200-12-28-start-josm.md 0200-12-27-more-about-josm.md \
-0200-12-26-gps.md 0200-12-24-papers.md 0200-12-23-editing-with-josm.md \
-0200-12-21-moving-forward.md
-
+SOURCE_FILE_NAME =  0200-12-31-beginner.md 0200-12-29-start-osm.md
+REPLACED_FILE =  {}
 BOOK_FILE_NAME = samp
 
 PDF_BUILDER = pandoc
@@ -11,14 +8,27 @@ PDF_BUILDER_FLAGS = \
 	--template ../common/pdf-template.tex \
 	--listings
 
+old = "/images/en"
+new = "images/en"
+
 
 # Copy relevant sections to your source directory
 
 # Remove YAML Frontmatter rules
 
+# Translate from local to subdirectory
 
-en/samp.pdf: 
-	 cd en && $(PDF_BUILDER) $(PDF_BUILDER_FLAGS) $(SOURCE_FILE_NAME) -o $(BOOK_FILE_NAME).pdf
+
+en/samp: sed
+	 cd en && $(PDF_BUILDER) $(PDF_BUILDER_FLAGS) $(REPLACED_FILE) -o $(BOOK_FILE_NAME).pdf
+
+sed: 
+	cd en && for i in $(ls *.md); do \
+				sed 1,9d $(i) > $(REPLACED_FILE); done
+
+#image: 
+#	cd en && sed -e "s/$(old)/$(new)/g" $(SOURCE_FILE_NAME) > $(REPLACED_FILE)
+
 
 clean:
 	rm -f */$(BOOK_FILE_NAME).pdfmake
