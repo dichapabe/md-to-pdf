@@ -6,4 +6,4 @@ Procedure to convert the LearnOSM markdown files to PDF
 4. Edit the MakeFile to choose which markdown files you want to use
 5. In the Terminal, run `make`. 
 
-To get updates, pull updates from LearnOSM and run `make` again. 
+To get updates, pull updates from LearnOSM and run `make` again. # md-to-pdf
